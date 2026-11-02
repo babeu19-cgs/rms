@@ -1,131 +1,143 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="de">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#091f49">
-  <meta name="description" content="Rund ums Haus – Reinigung, Gartenarbeit, Entrümpelung und Umzug aus einer Hand. Persönlich, unkompliziert und nach Absprache. Jetzt unverbindlich anfragen.">
-  <meta property="og:type" content="website"><meta property="og:locale" content="de_DE">
-  <meta property="og:title" content="Rund ums Haus — Alles aus einer Hand">
-  <meta property="og:description" content="Reinigung. Gartenarbeit. Entrümpelung. Umzug. Entdecken Sie unsere Leistungen.">
-  <title>Rund ums Haus — Reinigung, Gartenarbeit, Entrümpelung & Umzug</title>
-  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="preload" href="assets/hauspflege.webp" as="image" type="image/webp">
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="#091f49" name="theme-color"/>
+<meta content="Rund ums Haus in Regenstauf: Unterhaltsreinigung, Gartenarbeit, Entrümpelung, Fensterreinigung, Terrassen- und Steinreinigung, Hausmeisterservice und Umzug. Jetzt anfragen." name="description"/>
+<meta content="index, follow, max-image-preview:large" name="robots"/>
+<meta content="website" property="og:type"/><meta content="de_DE" property="og:locale"/>
+<meta content="Rund ums Haus — Alles aus einer Hand" property="og:title"/>
+<meta content="Hausmanagement aus Regenstauf: 7 Services – Reinigung, Garten, Entrümpelung, Fenster, Steinflächen, Hausmeisterservice und Umzug." property="og:description"/>
+<title>Rund ums Haus Regenstauf | Reinigung, Garten, Hausmeister &amp; mehr</title>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"Rund ums Haus","legalName":"Samir Reiß","description":"Hausmanagement in Regenstauf: Unterhaltsreinigung, Gartenarbeit, Entrümpelung, Fensterreinigung, Terrassen- und Steinreinigung, Hausmeisterservice und Umzug","address":{"@type":"PostalAddress","streetAddress":"Bahnhofstraße 6","postalCode":"93128","addressLocality":"Regenstauf","addressCountry":"DE"},"telephone":"+4994029880947","email":"info.ums.haus@web.de","hasOfferCatalog":{"@type":"OfferCatalog","name":"Leistungen rund ums Haus","itemListElement":[{"@type":"OfferCatalog","name":"Unterhaltsreinigung"},{"@type":"OfferCatalog","name":"Gartenarbeit"},{"@type":"OfferCatalog","name":"Entrümpelung"},{"@type":"OfferCatalog","name":"Fensterreinigung"},{"@type":"OfferCatalog","name":"Terrassen- & Steinreinigung"},{"@type":"OfferCatalog","name":"Hausmeisterservice"},{"@type":"OfferCatalog","name":"Umzug"}]}}</script>
+<link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link as="image" href="assets/hauspflege.webp" rel="preload" type="image/webp"/>
+<link href="styles.css" rel="stylesheet"/>
+<script defer="" src="script.js"></script>
 </head>
 <body class="horizontal-site">
-  <a href="#start" class="skip-link">Zum Inhalt springen</a>
-  <header class="header" id="site-header">
-    <a class="identity" href="#start" data-go="start" aria-label="Rund ums Haus – Startseite">
-      <img src="assets/rund-ums-haus-logo.png" width="54" height="54" alt="" class="identity-symbol">
-      <span class="identity-type"><strong>RUND UMS <b>HAUS</b></strong><small>HAUSMANAGEMENT</small></span>
-    </a>
-    <nav class="desktop-nav" aria-label="Hauptnavigation">
-      <a href="#leistungen" data-go="leistungen">Leistungen</a>
-      <a href="#ueber-uns" data-go="ueber-uns">Über uns</a>
-      <a href="#fragen" data-go="fragen">FAQ</a>
-    </nav>
-    <div class="header-actions">
-      <a class="header-phone" href="tel:+491786672158" aria-label="Anrufen: 01786 672 158"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16.5v3a2 2 0 0 1-2.2 2A18.4 18.4 0 0 1 2.5 5.2 2 2 0 0 1 4.5 3h3a2 2 0 0 1 2 1.7l.5 2.7a2 2 0 0 1-.6 1.9l-1.4 1.3a15 15 0 0 0 5.3 5.3l1.3-1.4a2 2 0 0 1 1.9-.6l2.7.5a2 2 0 0 1 1.8 2Z"/></svg><span>01786 672 158</span></a>
-      <a class="button button-primary header-cta" href="#kontakt" data-go="kontakt"><span>Angebot anfragen</span><span class="button-icon">↗</span></a>
-      <button class="menu-trigger" type="button" aria-label="Menü öffnen" aria-controls="mobile-menu" aria-expanded="false"><i></i><i></i></button>
-    </div>
-    <nav class="mobile-menu" id="mobile-menu" aria-label="Mobiles Menü" hidden>
-      <a href="#start" data-go="start">Startseite <span>01</span></a>
-      <a href="#leistungen" data-go="leistungen">Leistungen <span>02</span></a>
-      <a href="#ueber-uns" data-go="ueber-uns">Über uns <span>07</span></a>
-      <a href="#fragen" data-go="fragen">FAQ <span>08</span></a>
-      <a href="#kontakt" data-go="kontakt">Kontakt <span>09</span></a>
-    </nav>
-  </header>
-
-  <main class="slide-viewport" id="slide-viewport" aria-label="Seitlich scrollende Website. Mit Mausrad, Pfeiltasten oder Wischen navigieren.">
-    <section class="panel hero-panel" id="start" data-label="Start" tabindex="-1" aria-label="Startseite, Abschnitt 1 von 9">
-      <div class="panel-scroll hero-layout">
-        <div class="hero-content">
-          <div class="eyebrow eyebrow-light reveal"><span class="eyebrow-spark"></span> RUND UMS HAUS / HAUSMANAGEMENT</div>
-          <h1 class="hero-headline reveal">ALLES<br>RUND UMS<br><em>HAUS<span>.</span></em></h1>
-          <p class="hero-tagline reveal">Eine Adresse. Viele Lösungen.</p>
-          <p class="hero-description reveal">Reinigung, Gartenarbeit, Entrümpelung oder Umzug — wir unterstützen Sie bei den Aufgaben rund um Ihr Zuhause und Ihre Immobilie.</p>
-          <div class="hero-cta reveal">
-            <a class="button button-primary" href="#leistungen" data-go="leistungen"><span>Leistungen entdecken</span><span class="button-icon">↗</span></a>
-            <a class="subtle-link" href="#kontakt" data-go="kontakt">Unverbindlich anfragen <span>↗</span></a>
-          </div>
-          <div class="hero-footnote reveal"><span class="flicker-dot"></span> PERSÖNLICH. VIELSEITIG. UNKOMPLIZIERT.</div>
-        </div>
-        <div class="hero-image-wrap">
-          <img src="assets/hauspflege.webp" alt="Gepflegter moderner Hauseingang mit einladender Gartenanlage" width="1672" height="941" fetchpriority="high" class="hero-image">
-          <div class="hero-image-shade"></div>
-          <div class="image-caption"><span>HAUSMANAGEMENT</span><span>01 — 09</span></div>
-          <div class="hero-image-sticker"><span>VON DER<br>HAUSTÜR BIS<br>ZUM GARTEN</span><span class="sticker-arrow">↗</span></div>
-        </div>
-        <div class="vertical-text" aria-hidden="true">RUND UMS HAUS © 2026</div>
-      </div>
-    </section>
-
-    <section class="panel overview-panel" id="leistungen" data-label="Leistungen" tabindex="-1" aria-label="Leistungen, Abschnitt 2 von 9">
-      <div class="panel-scroll overview-content">
-        <div class="panel-topline reveal"><span class="kicker-index">01 / UNSER ANGEBOT</span><span>VIER BEREICHE. EIN KONTAKT.</span></div>
-        <div class="overview-heading reveal"><h2>WIR PACKEN<br><span>ES AN.</span></h2><p>Was steht bei Ihnen an? Entdecken Sie unsere vier Leistungsbereiche – und springen Sie direkt zum passenden Angebot.</p></div>
-        <div class="overview-grid">
-          <a href="#reinigung" data-go="reinigung" class="overview-card reveal"><img src="assets/reinigung.webp" alt="Professionelle Bodenreinigung" loading="lazy" width="1672" height="941"><span class="overview-shade"></span><span class="overview-number">01</span><span class="overview-name">REINIGUNG</span><span class="overview-arrow">↗</span></a>
-          <a href="#gartenarbeit" data-go="gartenarbeit" class="overview-card reveal"><img src="assets/gartenarbeit.webp" alt="Gepflegter Garten mit Terrasse" loading="lazy" width="1672" height="941"><span class="overview-shade"></span><span class="overview-number">02</span><span class="overview-name">GARTENARBEIT</span><span class="overview-arrow">↗</span></a>
-          <a href="#entruempelung" data-go="entruempelung" class="overview-card reveal"><img src="assets/entruempelung.webp" alt="Sortierte Kartons und Möbel bei einer Entrümpelung" loading="lazy" width="1672" height="941"><span class="overview-shade"></span><span class="overview-number">03</span><span class="overview-name">ENTRÜMPELUNG</span><span class="overview-arrow">↗</span></a>
-          <a href="#umzug" data-go="umzug" class="overview-card reveal"><img src="assets/umzug.webp" alt="Zwei Umzugshelfer tragen ein Sofa" loading="lazy" width="1672" height="941"><span class="overview-shade"></span><span class="overview-number">04</span><span class="overview-name">UMZUG</span><span class="overview-arrow">↗</span></a>
-        </div>
-        <div class="overview-bottom reveal"><span>WÄHLEN SIE EINE LEISTUNG</span><span>ODER EINFACH WEITER SCROLLEN <b>→</b></span></div>
-      </div>
-    </section>
-
-    <section class="panel feature-panel feature-clean" id="reinigung" data-label="Reinigung" tabindex="-1" aria-label="Reinigung, Abschnitt 3 von 9">
-      <div class="panel-scroll feature-layout">
-        <div class="feature-photo"><img src="assets/reinigung.webp" alt="Fachkraft reinigt den Boden eines modernen Hauses" loading="lazy" width="1672" height="941"><span class="photo-label">IM FOKUS / 01</span></div>
-        <div class="feature-content"><span class="eyebrow reveal">01 / REINIGUNG</span><div class="feature-giant reveal">01</div><h2 class="reveal">SAUBER.<br><em>BIS INS DETAIL.</em></h2><p class="feature-lead reveal">Gepflegte Räume machen den Unterschied. Wir besprechen, welche Reinigung zu Ihrem Objekt und Ihrem Alltag passt.</p><div class="feature-tags reveal"><span>Haus & Wohnung</span><span>Treppenhaus</span><span>Nach Vereinbarung</span></div><a class="button button-dark reveal" href="#kontakt" data-go="kontakt" data-service="Reinigung"><span>Reinigung anfragen</span><span class="button-icon">↗</span></a></div>
-      </div>
-    </section>
-
-    <section class="panel feature-panel feature-garden reverse" id="gartenarbeit" data-label="Gartenarbeit" tabindex="-1" aria-label="Gartenarbeit, Abschnitt 4 von 9">
-      <div class="panel-scroll feature-layout">
-        <div class="feature-photo"><img src="assets/gartenarbeit.webp" alt="Schön gepflegte Gartenanlage mit Terrasse" loading="lazy" width="1672" height="941"><span class="photo-label">IM FOKUS / 02</span></div>
-        <div class="feature-content"><span class="eyebrow reveal">02 / GARTENARBEIT</span><div class="feature-giant reveal">02</div><h2 class="reveal">MEHR GRÜN.<br><em>MEHR ZEIT.</em></h2><p class="feature-lead reveal">Vom gepflegten Garten bis zu einladenden Außenflächen – wir sprechen über Ihre Wünsche und die passende Unterstützung.</p><div class="feature-tags reveal"><span>Gartenpflege</span><span>Außenanlagen</span><span>Individuell</span></div><a class="button button-dark reveal" href="#kontakt" data-go="kontakt" data-service="Gartenarbeit"><span>Gartenarbeit anfragen</span><span class="button-icon">↗</span></a></div>
-      </div>
-    </section>
-
-    <section class="panel feature-panel feature-clear" id="entruempelung" data-label="Entrümpelung" tabindex="-1" aria-label="Entrümpelung, Abschnitt 5 von 9">
-      <div class="panel-scroll feature-layout"><div class="feature-photo"><img src="assets/entruempelung.webp" alt="Professionelle Entrümpelung in einem Lagerraum" loading="lazy" width="1672" height="941"><span class="photo-label">IM FOKUS / 03</span></div><div class="feature-content"><span class="eyebrow reveal">03 / ENTRÜMPELUNG</span><div class="feature-giant reveal">03</div><h2 class="reveal">PLATZ FÜR<br><em>NEUES.</em></h2><p class="feature-lead reveal">Keller, Dachboden oder größere Räumung: Sie sagen uns, was weg soll – wir besprechen das passende Vorgehen.</p><div class="feature-tags reveal"><span>Keller</span><span>Dachboden</span><span>Räumungen</span></div><a class="button button-dark reveal" href="#kontakt" data-go="kontakt" data-service="Entrümpelung"><span>Entrümpelung anfragen</span><span class="button-icon">↗</span></a></div></div>
-    </section>
-
-    <section class="panel feature-panel feature-move reverse" id="umzug" data-label="Umzug" tabindex="-1" aria-label="Umzug, Abschnitt 6 von 9">
-      <div class="panel-scroll feature-layout"><div class="feature-photo"><img src="assets/umzug.webp" alt="Umzugshelfer beim vorsichtigen Tragen eines Sofas" loading="lazy" width="1672" height="941"><span class="photo-label">IM FOKUS / 04</span></div><div class="feature-content"><span class="eyebrow reveal">04 / UMZUG</span><div class="feature-giant reveal">04</div><h2 class="reveal">ALTES LOS.<br><em>NEUES REIN.</em></h2><p class="feature-lead reveal">Bei einem Umzug gibt es viel zu organisieren. Erzählen Sie uns, wobei Sie Hilfe brauchen und wie Ihr Zeitplan aussieht.</p><div class="feature-tags reveal"><span>Transporthilfe</span><span>Möbel & Hausrat</span><span>Nach Absprache</span></div><a class="button button-dark reveal" href="#kontakt" data-go="kontakt" data-service="Umzug"><span>Umzug anfragen</span><span class="button-icon">↗</span></a></div></div>
-    </section>
-
-    <section class="panel values-panel" id="ueber-uns" data-label="Über uns" tabindex="-1" aria-label="Über uns und Ablauf, Abschnitt 7 von 9">
-      <div class="panel-scroll values-layout">
-        <div class="values-left"><span class="eyebrow eyebrow-light reveal">05 / UNSERE ARBEITSWEISE</span><h2 class="reveal">WENIGER<br>AUFWAND.<br><em>MEHR LUFT.</em></h2><p class="reveal">Rund ums Haus bedeutet: verschiedene Aufgaben, ein direkter Kontakt. Wir klären gemeinsam Ihren Bedarf und stimmen die nächsten Schritte persönlich ab.</p><a class="button button-primary reveal" href="#kontakt" data-go="kontakt"><span>Jetzt Kontakt aufnehmen</span><span class="button-icon">↗</span></a><span class="values-big-asterisk" aria-hidden="true">✳</span></div>
-        <div class="values-right"><span class="steps-eyebrow reveal">SO FUNKTIONIERT'S</span><div class="process-step reveal"><span>01</span><div><h3>ANFRAGE</h3><p>Rufen Sie uns an oder schildern Sie Ihr Vorhaben per E-Mail.</p></div><b>↗</b></div><div class="process-step reveal"><span>02</span><div><h3>ABSPRACHE</h3><p>Wir besprechen Leistung, Umfang und mögliche Termine.</p></div><b>↗</b></div><div class="process-step reveal"><span>03</span><div><h3>UMSETZUNG</h3><p>Nach Vereinbarung geht es los – passend zu Ihrem Bedarf.</p></div><b>✓</b></div><p class="process-signoff reveal">EINFACH ANFRAGEN. PERSÖNLICH KLÄREN. LOSLEGEN.</p></div>
-      </div>
-    </section>
-
-    <section class="panel faq-panel" id="fragen" data-label="FAQ" tabindex="-1" aria-label="Häufige Fragen, Abschnitt 8 von 9">
-      <div class="panel-scroll faq-layout"><div class="faq-intro"><span class="eyebrow reveal">06 / GUT ZU WISSEN</span><h2 class="reveal">FRAGEN?<br><em>KLAREN WIR.</em></h2><p class="reveal">Damit Sie wissen, wie die Zusammenarbeit mit uns abläuft.</p><a href="#kontakt" data-go="kontakt" class="button button-dark reveal"><span>Frage stellen</span><span class="button-icon">↗</span></a></div><div class="faq-accordion"><details class="reveal"><summary>Welche Leistungen bieten Sie an?<span>+</span></summary><p>Reinigung, Gartenarbeit, Entrümpelung und Umzug. Die konkreten Arbeiten und den Umfang stimmen wir gemeinsam ab.</p></details><details class="reveal"><summary>Kann ich mehrere Leistungen kombinieren?<span>+</span></summary><p>Ja, beschreiben Sie uns einfach alle gewünschten Aufgaben. Wir klären, was wir gemeinsam organisieren können.</p></details><details class="reveal"><summary>Wie erhalte ich ein Angebot?<span>+</span></summary><p>Am besten teilen Sie uns die gewünschte Leistung, den Ort und den ungefähren Umfang telefonisch oder per E-Mail mit.</p></details><details class="reveal"><summary>Welche Orte bedienen Sie?<span>+</span></summary><p>Nennen Sie uns Ihren Ort oder die Postleitzahl. Wir prüfen gerne, ob Ihr Standort zum Einsatzgebiet gehört.</p></details><details class="reveal"><summary>Kann ich einen Wunschtermin nennen?<span>+</span></summary><p>Selbstverständlich. Ob der Termin möglich ist, klären wir nach Absprache und Verfügbarkeit.</p></details></div></div>
-    </section>
-
-    <section class="panel contact-panel" id="kontakt" data-label="Kontakt" tabindex="-1" aria-label="Kontakt, Abschnitt 9 von 9">
-      <div class="panel-scroll contact-layout"><div class="contact-copy"><span class="eyebrow eyebrow-light reveal">07 / KONTAKT</span><h2 class="reveal">LASSEN<br>WIR'S <em>AN-<br>PACKEN.</em></h2><p class="reveal">Ein Anruf oder eine Nachricht genügt, um den nächsten Schritt zu besprechen.</p><div class="contact-ways reveal"><a href="tel:+499402988047"><span>FESTNETZ</span><strong>09402 988 047</strong><i>↗</i></a><a href="tel:+491786672158"><span>MOBIL</span><strong>01786 672 158</strong><i>↗</i></a><a href="mailto:info.ums.haus@web.de"><span>E-MAIL</span><strong>info.ums.haus@web.de</strong><i>↗</i></a></div></div>
-      <div class="contact-form-wrap reveal"><div class="form-intro"><span>IHRE ANFRAGE</span><h3>WAS KÖNNEN WIR<br>FÜR SIE TUN?</h3><p>Dieses Formular bereitet eine Nachricht für Ihr E-Mail-Programm vor.</p></div>
-      <form id="contact-form"><div class="fields-two"><label>Ihr Name *<input type="text" name="name" autocomplete="name" placeholder="Vor- und Nachname" maxlength="120" required></label><label>E-Mail-Adresse *<input type="email" name="email" autocomplete="email" placeholder="name@beispiel.de" maxlength="200" required></label></div><div class="fields-two"><label>Telefon<input type="tel" name="phone" autocomplete="tel" placeholder="Optional" maxlength="45"></label><label>Leistung *<select name="service" id="service" required><option value="" selected disabled>Bitte auswählen</option><option>Reinigung</option><option>Gartenarbeit</option><option>Entrümpelung</option><option>Umzug</option><option>Mehrere Leistungen</option><option>Sonstige Anfrage</option></select></label></div><label>Einsatzort / PLZ<input name="city" type="text" placeholder="Ort oder Postleitzahl" maxlength="120"></label><label>Ihre Nachricht *<textarea name="message" rows="3" required maxlength="3000" placeholder="Was soll gemacht werden? Wann und wo?"></textarea></label><p class="form-note">Es erfolgt kein automatischer Versand. Die E-Mail wird erst in Ihrem E-Mail-Programm versendet. <a href="datenschutz.html">Datenschutz</a></p><button class="button button-primary submit-button" type="submit"><span>E-Mail-Anfrage vorbereiten</span><span class="button-icon">↗</span></button><p class="form-status" id="form-status" role="status" aria-live="polite"></p></form><div class="email-fallback" id="email-fallback" hidden><span>Kein E-Mail-Programm geöffnet?</span> <button type="button" id="copy-email">Anfragetext kopieren ↗</button></div>
-      <div class="mini-footer"><span>© <span id="year">2026</span> RUND UMS HAUS</span><span><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></span></div>
-      </div></div>
-    </section>
-  </main>
-
-  <aside class="slide-controls" aria-label="Seitennavigation">
-    <div class="slide-count"><strong id="current-number">01</strong><span class="count-separator">/</span><span>09</span></div>
-    <div class="progress-area"><div class="progress-rail" aria-hidden="true"><div id="progress-fill"></div></div><div class="progress-dots" id="progress-dots" aria-label="Abschnitte direkt öffnen"></div></div>
-    <div class="nav-label"><span class="direction-icon">↔</span><span id="current-label">START</span></div>
-    <div class="nav-arrows"><button type="button" id="prev-slide" aria-label="Vorheriger Abschnitt" disabled>←</button><button type="button" id="next-slide" aria-label="Nächster Abschnitt">→</button></div>
-  </aside>
-  <div class="scroll-hint" id="scroll-hint" aria-hidden="true">SCROLLEN / SWIPEN <span>→</span></div>
+<a class="skip-link" href="#start">Zum Inhalt springen</a>
+<header class="header" id="site-header">
+<a aria-label="Rund ums Haus – Startseite" class="identity" data-go="start" href="#start">
+<img alt="" class="identity-symbol" height="54" src="assets/rund-ums-haus-logo.png" width="54"/>
+<span class="identity-type"><strong>RUND UMS <b>HAUS</b></strong><small>HAUSMANAGEMENT</small></span>
+</a>
+<nav aria-label="Hauptnavigation" class="desktop-nav">
+<a data-go="leistungen" href="#leistungen">Leistungen</a>
+<a data-go="ueber-uns" href="#ueber-uns">Über uns</a>
+<a data-go="fragen" href="#fragen">FAQ</a>
+</nav>
+<div class="header-actions">
+<a aria-label="Anrufen: 01786 672 158" class="header-phone" href="tel:+491786672158"><svg aria-hidden="true" viewbox="0 0 24 24"><path d="M21 16.5v3a2 2 0 0 1-2.2 2A18.4 18.4 0 0 1 2.5 5.2 2 2 0 0 1 4.5 3h3a2 2 0 0 1 2 1.7l.5 2.7a2 2 0 0 1-.6 1.9l-1.4 1.3a15 15 0 0 0 5.3 5.3l1.3-1.4a2 2 0 0 1 1.9-.6l2.7.5a2 2 0 0 1 1.8 2Z"></path></svg><span>01786 672 158</span></a>
+<a class="button button-primary header-cta" data-go="kontakt" href="#kontakt"><span>Angebot anfragen</span><span class="button-icon">↗</span></a>
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Menü öffnen" class="menu-trigger" type="button"><i></i><i></i></button>
+</div>
+<nav aria-label="Mobiles Menü" class="mobile-menu" hidden="" id="mobile-menu">
+<a data-go="start" href="#start">Startseite <span>01</span></a>
+<a data-go="leistungen" href="#leistungen">Leistungen <span>02</span></a>
+<a data-go="ueber-uns" href="#ueber-uns">Über uns <span>10</span></a>
+<a data-go="fragen" href="#fragen">FAQ <span>11</span></a>
+<a data-go="kontakt" href="#kontakt">Kontakt <span>12</span></a>
+</nav>
+</header>
+<main aria-label="Seitlich scrollende Website. Mit Mausrad, Pfeiltasten oder Wischen navigieren." class="slide-viewport" id="slide-viewport">
+<section aria-label="Start, Abschnitt 1 von 12" class="panel hero-panel" data-label="Start" id="start" tabindex="-1">
+<div class="panel-scroll hero-layout">
+<div class="hero-content">
+<div class="eyebrow eyebrow-light reveal"><span class="eyebrow-spark"></span> RUND UMS HAUS / HAUSMANAGEMENT</div>
+<h1 class="hero-headline reveal">ALLES<br/>RUND UMS<br/><em>HAUS<span>.</span></em></h1>
+<p class="hero-tagline reveal">Eine Adresse. Viele Lösungen. Sitz in Regenstauf.</p>
+<p class="hero-description reveal">Unterhaltsreinigung, Gartenarbeit, Entrümpelung, Fensterreinigung, Terrassen- und Steinreinigung, Hausmeisterservice oder Umzug: Wir unterstützen Sie bei Aufgaben rund um Ihr Zuhause und Ihre Immobilie.</p>
+<div class="hero-cta reveal">
+<a class="button button-primary" data-go="leistungen" href="#leistungen"><span>Leistungen entdecken</span><span class="button-icon">↗</span></a>
+<a class="subtle-link" data-go="kontakt" href="#kontakt">Unverbindlich anfragen <span>↗</span></a>
+</div>
+<div class="hero-footnote reveal"><span class="flicker-dot"></span> PERSÖNLICH. VIELSEITIG. UNKOMPLIZIERT.</div>
+</div>
+<div class="hero-image-wrap">
+<img alt="Gepflegter moderner Hauseingang mit einladender Gartenanlage" class="hero-image" fetchpriority="high" height="941" src="assets/hauspflege.webp" width="1672"/>
+<div class="hero-image-shade"></div>
+<div class="image-caption"><span>HAUSMANAGEMENT</span><span>01 — 12</span></div>
+<div class="hero-image-sticker"><span>VON DER<br/>HAUSTÜR BIS<br/>ZUM GARTEN</span><span class="sticker-arrow">↗</span></div>
+</div>
+<div aria-hidden="true" class="vertical-text">RUND UMS HAUS © 2026</div>
+</div>
+</section>
+<section aria-label="Leistungen, Abschnitt 2 von 12" class="panel overview-panel" data-label="Leistungen" id="leistungen" tabindex="-1">
+<div class="panel-scroll overview-content">
+<div class="panel-topline reveal"><span class="kicker-index">01 / UNSER ANGEBOT</span><span>SIEBEN SERVICES. EIN KONTAKT.</span></div>
+<div class="overview-heading reveal"><h2>WIR PACKEN<br/><span>ES AN.</span></h2><p>Sieben Leistungen aus einer Hand – finden Sie den passenden Service und öffnen Sie ihn mit nur einem Klick.</p></div>
+<div class="overview-grid"><a class="overview-card reveal" data-go="reinigung" href="#reinigung"><img alt="Illustration oder Aufnahme zum Bereich Unterhaltsreinigung" height="900" loading="lazy" src="assets/reinigung.webp" width="1600"/><span class="overview-shade"></span><span class="overview-number">01</span><span class="overview-name">UNTERHALTS-<br/>REINIGUNG</span><span class="overview-arrow">↗</span></a><a class="overview-card reveal" data-go="gartenarbeit" href="#gartenarbeit"><img alt="Illustration oder Aufnahme zum Bereich Gartenarbeit" height="900" loading="lazy" src="assets/gartenarbeit.webp" width="1600"/><span class="overview-shade"></span><span class="overview-number">02</span><span class="overview-name">GARTENARBEIT</span><span class="overview-arrow">↗</span></a><a class="overview-card reveal" data-go="entruempelung" href="#entruempelung"><img alt="Illustration oder Aufnahme zum Bereich Entrümpelung" height="900" loading="lazy" src="assets/entruempelung.webp" width="1600"/><span class="overview-shade"></span><span class="overview-number">03</span><span class="overview-name">ENTRÜMPELUNG</span><span class="overview-arrow">↗</span></a><a class="overview-card reveal" data-go="fensterreinigung" href="#fensterreinigung"><img alt="Fensterreinigung mit Abzieher an einer modernen Glasfassade" height="941" loading="lazy" src="assets/fensterreinigung.webp" width="1672"/><span class="overview-shade"></span><span class="overview-number">04</span><span class="overview-name">FENSTER-<br/>REINIGUNG</span><span class="overview-arrow">↗</span></a><a class="overview-card reveal" data-go="steinreinigung" href="#steinreinigung"><img alt="Fachkraft reinigt eine Terrasse mit einem Hochdruckreiniger" height="941" loading="lazy" src="assets/steinreinigung.webp" width="1672"/><span class="overview-shade"></span><span class="overview-number">05</span><span class="overview-name">TERRASSEN- &amp;<br/>STEINREINIGUNG</span><span class="overview-arrow">↗</span></a><a class="overview-card reveal" data-go="hausmeisterservice" href="#hausmeisterservice"><img alt="Hausmeister bei einer kleinen Wartungsarbeit an einem Wohngebäude" height="941" loading="lazy" src="assets/hausmeisterservice.webp" width="1672"/><span class="overview-shade"></span><span class="overview-number">06</span><span class="overview-name">HAUSMEISTER-<br/>SERVICE</span><span class="overview-arrow">↗</span></a><a class="overview-card reveal" data-go="umzug" href="#umzug"><img alt="Illustration oder Aufnahme zum Bereich Umzug" height="900" loading="lazy" src="assets/umzug.webp" width="1600"/><span class="overview-shade"></span><span class="overview-number">07</span><span class="overview-name">UMZUG</span><span class="overview-arrow">↗</span></a></div>
+<div class="overview-bottom reveal"><span>WÄHLEN SIE EINE LEISTUNG</span><span>ODER EINFACH WEITER SCROLLEN <b>→</b></span></div>
+</div>
+</section>
+<section aria-label="Unterhaltsreinigung, Abschnitt 3 von 12" class="panel feature-panel feature-clean" data-label="Unterhaltsreinigung" id="reinigung" tabindex="-1">
+<div class="panel-scroll feature-layout">
+<div class="feature-photo"><img alt="Fachkraft reinigt den Boden eines modernen Hauses" height="941" loading="lazy" src="assets/reinigung.webp" width="1672"/><span class="photo-label">IM FOKUS / 01</span></div>
+<div class="feature-content"><span class="eyebrow reveal">01 / UNTERHALTSREINIGUNG</span><div class="feature-giant reveal">01</div><h2 class="reveal">SAUBER.<br/><em>BIS INS DETAIL.</em></h2><p class="feature-lead reveal">Regelmäßige und individuelle Reinigung für Büros, Treppenhäuser, Praxis- und Kanzleiräume sowie private Haushalte.</p><div class="feature-tags reveal"><span>Büros &amp; Geschäftsflächen</span><span>Treppenhäuser</span><span>Praxis- &amp; Kanzleiräume</span></div><a class="button button-dark reveal" data-go="kontakt" data-service="Reinigung" href="#kontakt"><span>Unterhaltsreinigung anfragen</span><span class="button-icon">↗</span></a><a aria-label="Mehr über Reinigung erfahren" class="service-detail-link reveal" href="reinigung.html">Mehr über Unterhaltsreinigung erfahren <span aria-hidden="true">↗</span></a></div>
+</div>
+</section>
+<section aria-label="Gartenarbeit, Abschnitt 4 von 12" class="panel feature-panel feature-garden reverse" data-label="Gartenarbeit" id="gartenarbeit" tabindex="-1">
+<div class="panel-scroll feature-layout">
+<div class="feature-photo"><img alt="Schön gepflegte Gartenanlage mit Terrasse" height="941" loading="lazy" src="assets/gartenarbeit.webp" width="1672"/><span class="photo-label">IM FOKUS / 02</span></div>
+<div class="feature-content"><span class="eyebrow reveal">02 / GARTENARBEIT</span><div class="feature-giant reveal">02</div><h2 class="reveal">MEHR GRÜN.<br/><em>MEHR ZEIT.</em></h2><p class="feature-lead reveal">Vom gepflegten Garten bis zu einladenden Außenflächen – wir sprechen über Ihre Wünsche und die passende Unterstützung.</p><div class="feature-tags reveal"><span>Rasenmähen</span><span>Heckenschnitt</span><span>Gartenpflege</span></div><a class="button button-dark reveal" data-go="kontakt" data-service="Gartenarbeit" href="#kontakt"><span>Gartenarbeit anfragen</span><span class="button-icon">↗</span></a><a aria-label="Mehr über Gartenarbeit erfahren" class="service-detail-link reveal" href="gartenarbeit.html">Mehr über Gartenarbeit erfahren <span aria-hidden="true">↗</span></a></div>
+</div>
+</section>
+<section aria-label="Entrümpelung, Abschnitt 5 von 12" class="panel feature-panel feature-clear" data-label="Entrümpelung" id="entruempelung" tabindex="-1">
+<div class="panel-scroll feature-layout"><div class="feature-photo"><img alt="Professionelle Entrümpelung in einem Lagerraum" height="941" loading="lazy" src="assets/entruempelung.webp" width="1672"/><span class="photo-label">IM FOKUS / 03</span></div><div class="feature-content"><span class="eyebrow reveal">03 / ENTRÜMPELUNG</span><div class="feature-giant reveal">03</div><h2 class="reveal">PLATZ FÜR<br/><em>NEUES.</em></h2><p class="feature-lead reveal">Keller, Dachboden oder größere Räumung: Sie sagen uns, was weg soll – wir besprechen das passende Vorgehen.</p><div class="feature-tags reveal"><span>Wohnungen &amp; Häuser</span><span>Keller &amp; Dachböden</span><span>Gewerbeobjekte</span></div><a class="button button-dark reveal" data-go="kontakt" data-service="Entrümpelung" href="#kontakt"><span>Entrümpelung anfragen</span><span class="button-icon">↗</span></a><a aria-label="Mehr über Entrümpelung erfahren" class="service-detail-link reveal" href="entruempelung.html">Mehr über Entrümpelung erfahren <span aria-hidden="true">↗</span></a></div></div>
+</section>
+<section aria-label="Fensterreinigung, Abschnitt 6 von 12" class="panel feature-panel reverse" data-label="Fensterreinigung" id="fensterreinigung" tabindex="-1">
+<div class="panel-scroll feature-layout">
+<div class="feature-photo"><img alt="Fensterreinigung mit Abzieher an einer modernen Glasfassade" height="941" loading="lazy" src="assets/fensterreinigung.webp" width="1672"/><span class="photo-label">IM FOKUS / 04</span></div>
+<div class="feature-content"><span class="eyebrow reveal">04 / FENSTERREINIGUNG</span><div class="feature-giant reveal">04</div>
+<h2 class="reveal">KLARE SICHT.<br/><em>SAUBERE GLÄSER.</em></h2><p class="feature-lead reveal">Glas- und Rahmenreinigung für Privat- und Gewerbeobjekte. Wir besprechen Art, Umfang und Wunschtermin mit Ihnen.</p>
+<div class="feature-tags reveal"><span>Privat &amp; Gewerbe</span><span>Glas- &amp; Rahmenreinigung</span><span>Wintergärten</span></div>
+<a class="button button-dark reveal" data-go="kontakt" data-service="Fensterreinigung" href="#kontakt"><span>Fensterreinigung anfragen</span><span class="button-icon">↗</span></a>
+<a class="service-detail-link reveal" href="fensterreinigung.html">Mehr über Fensterreinigung erfahren <span aria-hidden="true">↗</span></a></div>
+</div></section><section aria-label="Terrassen- &amp; Steinreinigung, Abschnitt 7 von 12" class="panel feature-panel" data-label="Terrassen- &amp; Steinreinigung" id="steinreinigung" tabindex="-1">
+<div class="panel-scroll feature-layout">
+<div class="feature-photo"><img alt="Fachkraft reinigt eine Terrasse mit einem Hochdruckreiniger" height="941" loading="lazy" src="assets/steinreinigung.webp" width="1672"/><span class="photo-label">IM FOKUS / 05</span></div>
+<div class="feature-content"><span class="eyebrow reveal">05 / TERRASSEN- &amp; STEINREINIGUNG</span><div class="feature-giant reveal">05</div>
+<h2 class="reveal">FRISCHER LOOK.<br/><em>SAUBERE FLÄCHEN.</em></h2><p class="feature-lead reveal">Pflege von Terrassen, Einfahrten, Gehwegen und Pflasterflächen. Wir besprechen Art, Umfang und Wunschtermin mit Ihnen.</p>
+<div class="feature-tags reveal"><span>Terrassen</span><span>Einfahrten</span><span>Gehwege</span></div>
+<a class="button button-dark reveal" data-go="kontakt" data-service="Terrassen- &amp; Steinreinigung" href="#kontakt"><span>Terrassen- &amp; Steinreinigung anfragen</span><span class="button-icon">↗</span></a>
+<a class="service-detail-link reveal" href="steinreinigung.html">Mehr über Terrassen- &amp; Steinreinigung erfahren <span aria-hidden="true">↗</span></a></div>
+</div></section><section aria-label="Hausmeisterservice, Abschnitt 8 von 12" class="panel feature-panel reverse" data-label="Hausmeisterservice" id="hausmeisterservice" tabindex="-1">
+<div class="panel-scroll feature-layout">
+<div class="feature-photo"><img alt="Hausmeister bei einer kleinen Wartungsarbeit an einem Wohngebäude" height="941" loading="lazy" src="assets/hausmeisterservice.webp" width="1672"/><span class="photo-label">IM FOKUS / 06</span></div>
+<div class="feature-content"><span class="eyebrow reveal">06 / HAUSMEISTERSERVICE</span><div class="feature-giant reveal">06</div>
+<h2 class="reveal">GUT BETREUT.<br/><em>RUND UMS HAUS.</em></h2><p class="feature-lead reveal">Regelmäßige Objektbetreuung und kleine Arbeiten rund ums Gebäude. Wir besprechen Art, Umfang und Wunschtermin mit Ihnen.</p>
+<div class="feature-tags reveal"><span>Kleine Reparaturen</span><span>Kontrollgänge</span><span>Objektbetreuung</span></div>
+<a class="button button-dark reveal" data-go="kontakt" data-service="Hausmeisterservice" href="#kontakt"><span>Hausmeisterservice anfragen</span><span class="button-icon">↗</span></a>
+<a class="service-detail-link reveal" href="hausmeisterservice.html">Mehr über Hausmeisterservice erfahren <span aria-hidden="true">↗</span></a></div>
+</div></section><section aria-label="Umzug, Abschnitt 9 von 12" class="panel feature-panel feature-move reverse" data-label="Umzug" id="umzug" tabindex="-1">
+<div class="panel-scroll feature-layout"><div class="feature-photo"><img alt="Umzugshelfer beim vorsichtigen Tragen eines Sofas" height="941" loading="lazy" src="assets/umzug.webp" width="1672"/><span class="photo-label">IM FOKUS / 07</span></div><div class="feature-content"><span class="eyebrow reveal">07 / UMZUG</span><div class="feature-giant reveal">07</div><h2 class="reveal">ALTES LOS.<br/><em>NEUES REIN.</em></h2><p class="feature-lead reveal">Bei einem Umzug gibt es viel zu organisieren. Erzählen Sie uns, wobei Sie Hilfe brauchen und wie Ihr Zeitplan aussieht.</p><div class="feature-tags reveal"><span>Möbeltransport</span><span>Auf- &amp; Abbau</span><span>Termin nach Absprache</span></div><a class="button button-dark reveal" data-go="kontakt" data-service="Umzug" href="#kontakt"><span>Umzug anfragen</span><span class="button-icon">↗</span></a><a aria-label="Mehr über Umzug erfahren" class="service-detail-link reveal" href="umzug.html">Mehr über Umzug erfahren <span aria-hidden="true">↗</span></a></div></div>
+</section>
+<section aria-label="Über uns, Abschnitt 10 von 12" class="panel values-panel" data-label="Über uns" id="ueber-uns" tabindex="-1">
+<div class="panel-scroll values-layout">
+<div class="values-left"><span class="eyebrow eyebrow-light reveal">08 / UNSERE ARBEITSWEISE</span><h2 class="reveal">WENIGER<br/>AUFWAND.<br/><em>MEHR LUFT.</em></h2><p class="reveal">Rund ums Haus bedeutet: verschiedene Aufgaben, ein direkter Kontakt. Wir klären gemeinsam Ihren Bedarf und stimmen die nächsten Schritte persönlich ab.</p><a class="button button-primary reveal" data-go="kontakt" href="#kontakt"><span>Jetzt Kontakt aufnehmen</span><span class="button-icon">↗</span></a><span aria-hidden="true" class="values-big-asterisk">✳</span></div>
+<div class="values-right"><span class="steps-eyebrow reveal">SO FUNKTIONIERT'S</span><div class="process-step reveal"><span>01</span><div><h3>ANFRAGE</h3><p>Rufen Sie uns an oder schildern Sie Ihr Vorhaben per E-Mail.</p></div><b>↗</b></div><div class="process-step reveal"><span>02</span><div><h3>ABSPRACHE</h3><p>Wir besprechen Leistung, Umfang und mögliche Termine.</p></div><b>↗</b></div><div class="process-step reveal"><span>03</span><div><h3>UMSETZUNG</h3><p>Nach Vereinbarung geht es los – passend zu Ihrem Bedarf.</p></div><b>✓</b></div><p class="process-signoff reveal">EINFACH ANFRAGEN. PERSÖNLICH KLÄREN. LOSLEGEN.</p></div>
+</div>
+</section>
+<section aria-label="FAQ, Abschnitt 11 von 12" class="panel faq-panel" data-label="FAQ" id="fragen" tabindex="-1">
+<div class="panel-scroll faq-layout"><div class="faq-intro"><span class="eyebrow reveal">09 / GUT ZU WISSEN</span><h2 class="reveal">FRAGEN?<br/><em>KLAREN WIR.</em></h2><p class="reveal">Damit Sie wissen, wie die Zusammenarbeit mit uns abläuft.</p><a class="button button-dark reveal" data-go="kontakt" href="#kontakt"><span>Frage stellen</span><span class="button-icon">↗</span></a></div><div class="faq-accordion"><details class="reveal"><summary>Welche Leistungen bieten Sie an?<span>+</span></summary><p>Wir bieten Unterhaltsreinigung, Gartenarbeit, Entrümpelung, Fensterreinigung, Terrassen- und Steinreinigung, Hausmeisterservice und Umzug an. Umfang und Verfügbarkeit stimmen wir individuell ab.</p></details><details class="reveal"><summary>Kann ich mehrere Leistungen kombinieren?<span>+</span></summary><p>Ja, beschreiben Sie uns einfach alle gewünschten Aufgaben. Wir klären, was wir gemeinsam organisieren können.</p></details><details class="reveal"><summary>Wie erhalte ich ein Angebot?<span>+</span></summary><p>Am besten teilen Sie uns die gewünschte Leistung, den Ort und den ungefähren Umfang telefonisch oder per E-Mail mit.</p></details><details class="reveal"><summary>Welche Orte bedienen Sie?<span>+</span></summary><p>Nennen Sie uns Ihren Ort oder die Postleitzahl. Wir prüfen gerne, ob Ihr Standort zum Einsatzgebiet gehört.</p></details><details class="reveal"><summary>Kann ich einen Wunschtermin nennen?<span>+</span></summary><p>Selbstverständlich. Ob der Termin möglich ist, klären wir nach Absprache und Verfügbarkeit.</p></details></div></div>
+</section>
+<section aria-label="Kontakt, Abschnitt 12 von 12" class="panel contact-panel" data-label="Kontakt" id="kontakt" tabindex="-1">
+<div class="panel-scroll contact-layout"><div class="contact-copy"><span class="eyebrow eyebrow-light reveal">10 / KONTAKT</span><h2 class="reveal">LASSEN<br/>WIR'S <em>AN-<br/>PACKEN.</em></h2><p class="reveal">Ein Anruf oder eine Nachricht genügt, um den nächsten Schritt zu besprechen.</p><div class="contact-ways reveal"><a href="tel:+4994029880947"><span>FESTNETZ</span><strong>09402 9880947</strong><i>↗</i></a><a href="tel:+491786672158"><span>MOBIL</span><strong>01786 672 158</strong><i>↗</i></a><a href="mailto:info.ums.haus@web.de"><span>E-MAIL</span><strong>info.ums.haus@web.de</strong><i>↗</i></a></div></div>
+<div class="contact-form-wrap reveal"><div class="form-intro"><span>IHRE ANFRAGE</span><h3>WAS KÖNNEN WIR<br/>FÜR SIE TUN?</h3><p>Dieses Formular bereitet eine Nachricht für Ihr E-Mail-Programm vor.</p></div>
+<form id="contact-form"><div class="fields-two"><label>Ihr Name *<input autocomplete="name" maxlength="120" name="name" placeholder="Vor- und Nachname" required="" type="text"/></label><label>E-Mail-Adresse *<input autocomplete="email" maxlength="200" name="email" placeholder="name@beispiel.de" required="" type="email"/></label></div><div class="fields-two"><label>Telefon<input autocomplete="tel" maxlength="45" name="phone" placeholder="Optional" type="tel"/></label><label>Leistung *<select id="service" name="service" required=""><option disabled="" selected="" value="">Bitte auswählen</option><option>Reinigung</option><option>Gartenarbeit</option><option>Entrümpelung</option><option>Fensterreinigung</option><option>Terrassen- &amp; Steinreinigung</option><option>Hausmeisterservice</option><option>Umzug</option><option>Mehrere Leistungen</option><option>Sonstige Anfrage</option></select></label></div><label>Einsatzort / PLZ<input maxlength="120" name="city" placeholder="Ort oder Postleitzahl" type="text"/></label><label>Ihre Nachricht *<textarea maxlength="3000" name="message" placeholder="Was soll gemacht werden? Wann und wo?" required="" rows="3"></textarea></label><p class="form-note">Es erfolgt kein automatischer Versand. Die E-Mail wird erst in Ihrem E-Mail-Programm versendet. <a href="datenschutz.html">Datenschutz</a></p><button class="button button-primary submit-button" type="submit"><span>E-Mail-Anfrage vorbereiten</span><span class="button-icon">↗</span></button><p aria-live="polite" class="form-status" id="form-status" role="status"></p></form><div class="email-fallback" hidden="" id="email-fallback"><span>Kein E-Mail-Programm geöffnet?</span> <button id="copy-email" type="button">Anfragetext kopieren ↗</button></div>
+<div class="mini-footer"><span>© <span id="year">2026</span> RUND UMS HAUS</span><span><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></span></div>
+</div></div>
+</section>
+</main>
+<aside aria-label="Seitennavigation" class="slide-controls">
+<div class="slide-count"><strong id="current-number">01</strong><span class="count-separator">/</span><span>12</span></div>
+<div class="progress-area"><div aria-hidden="true" class="progress-rail"><div id="progress-fill"></div></div><div aria-label="Abschnitte direkt öffnen" class="progress-dots" id="progress-dots"></div></div>
+<div class="nav-label"><span class="direction-icon">↔</span><span id="current-label">START</span></div>
+<div class="nav-arrows"><button aria-label="Vorheriger Abschnitt" disabled="" id="prev-slide" type="button">←</button><button aria-label="Nächster Abschnitt" id="next-slide" type="button">→</button></div>
+</aside>
+<div aria-hidden="true" class="scroll-hint" id="scroll-hint">SCROLLEN / SWIPEN <span>→</span></div>
 </body>
 </html>

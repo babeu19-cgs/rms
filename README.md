@@ -20,7 +20,7 @@ Website static în limba germană, cu **scroll orizontal**, swipe pe telefon, an
 
 Nume: **Rund ums Haus** (nu `UMS Rund ums Haus`).
 
-- Fix: 09402 988 047
+- Fix: 09402 9880947
 - Mobil: 01786 672 158
 - Email: info.ums.haus@web.de
 - Servicii: Reinigung, Gartenarbeit, Entrümpelung, Umzug

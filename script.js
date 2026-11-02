@@ -37,7 +37,7 @@
 
   function goTo(index, options = {}) {
     const chosen = Math.max(0, Math.min(total - 1, index));
-    const smooth = !reduceMotion.matches && options.smooth !== false;
+    const smooth = !reduceMotion.matches && options.smooth !== false && Math.abs(chosen - active) <= 3;
     viewport.scrollTo({ left: chosen * viewport.clientWidth, behavior: smooth ? 'smooth' : 'instant' });
     update(chosen);
     if (options.updateHash) history.replaceState(null, '', '#' + panels[chosen].id);

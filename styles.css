@@ -24,3 +24,32 @@ body:not(.horizontal-site){min-height:100vh;background:#edf4f8;overflow:auto}.to
 .mini-footer > span:last-child{display:flex;gap:15px}.mini-footer #year{display:inline}
 @media(min-width:651px){.scroll-hint{bottom:calc(var(--dock-h) + 66px);right:5.5%}}
 @media(min-width:901px){.feature-content h2{font-size:clamp(49px,4.45vw,76px)}}
+
+
+/* Service landing pages: fast, semantic pages to complement the animated horizontal homepage */
+.service-detail-link{display:inline-flex;align-items:center;gap:14px;margin-top:15px;color:var(--navy);font-size:12px;font-weight:900;text-decoration:underline;text-underline-offset:5px;transition:transform .25s,color .25s}
+.service-detail-link:hover{color:#008bb7;transform:translateX(5px)}
+.service-detail-link span{font-size:18px}
+@media(prefers-reduced-motion:reduce){.service-detail-link{transition:none}}
+
+/* Additional flyer service categories — overview remains scrollable within its lateral panel. */
+.overview-content{overflow-y:auto;overscroll-behavior-y:contain}
+.overview-grid{grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:minmax(165px,1fr);grid-template-rows:none;flex:none;max-height:none;min-height:0}
+.overview-card{min-height:165px;aspect-ratio:1.55}
+.overview-card .overview-name{font-size:clamp(17px,1.7vw,27px);max-width:85%;bottom:19px;overflow-wrap:break-word;line-height:1.1;text-transform:none}
+.overview-card:nth-child(n+5){aspect-ratio:1.7}
+.overview-heading{flex-shrink:0}
+.overview-bottom{padding-bottom:20px}
+@media(max-width:900px){.overview-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:190px;grid-template-rows:none;max-height:none;min-height:0;flex:none}.overview-card{min-height:190px;aspect-ratio:auto}.overview-card:nth-child(n+5){aspect-ratio:auto}.overview-card .overview-name{font-size:clamp(16px,2.4vw,25px)}}
+@media(max-width:650px){.overview-grid{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:154px;gap:10px}.overview-card{min-height:154px}.overview-card .overview-name{font-size:clamp(14px,3.6vw,19px)!important;letter-spacing:.1px;bottom:12px;left:11px;line-height:1.07;max-width:83%}.overview-card .overview-number{top:10px;left:11px}.overview-arrow{right:8px;bottom:8px}.overview-heading h2{font-size:clamp(57px,12vw,74px)}.overview-heading{margin:17px 0 18px}}
+@media(max-width:365px){.overview-card .overview-name{font-size:13px!important}}
+
+/* Natural, intentional line breaks in overview titles instead of broken single letters. */
+.overview-card .overview-name{font-size:clamp(15px,1.45vw,21px);max-width:92%;word-break:normal;overflow-wrap:normal;line-height:1.12}
+@media(max-width:650px){.overview-card .overview-name{font-size:clamp(12px,3.1vw,15px)!important;line-height:1.14;max-width:94%}}
+@media(max-width:365px){.overview-card .overview-name{font-size:12px!important;letter-spacing:-.2px}}
+/* Long feature headlines stay inside their own panel on all breakpoints. */
+#fensterreinigung .feature-content h2,
+#steinreinigung .feature-content h2{font-size:clamp(36px,3.3vw,53px);letter-spacing:-.025em}
+@media(max-width:900px){#fensterreinigung .feature-content h2,#steinreinigung .feature-content h2{font-size:clamp(36px,6.4vw,56px)}}
+@media(max-width:650px){#fensterreinigung .feature-content h2,#steinreinigung .feature-content h2{font-size:clamp(34px,8.2vw,49px)}}
